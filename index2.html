@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function countPerimeter(radius){
+        sum= 2*radius*Math.PI;
+        return sum;
+    }
+    function countAcreage(radius){
+        sum=radius*radius*Math.PI;
+        return sum;
+    }
+    let radius=prompt();
+    document.write("Chu vi hình tròn= "+countPerimeter(radius)+"<br>");
+    document.write("Diện tích hình tròn= "+countAcreage(radius));
+</script>
+</body>
+</html>
