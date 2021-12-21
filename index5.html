@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function isInteger(a,b,c){
+      if (a<b && a<c){
+          min=a;
+      }else if (b<a && b<c){
+          min=b;
+      }else{
+          min=c;
+      }
+      return min;
+  }
+  let a=parseInt(prompt());
+  let b=parseInt(prompt());
+  let c=parseInt(prompt());
+  document.write(isInteger(a,b,c));
+</script>
+</body>
+</html>
